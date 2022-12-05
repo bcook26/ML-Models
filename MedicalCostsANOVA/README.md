@@ -1,4 +1,4 @@
-Packages Dependencies: 
+## Packages Dependencies: 
 - pandas == 1.4.2
 - numpy == 1.22.3
 - seaborn == 0.11.2
@@ -15,13 +15,13 @@ Y output: insurance charge ($)
 - After completing ANOVA I decided to test some models to see if I could estimate the charge price based on the factors
 
 ## TLDR (If you don't want to view full analysis):
-Anova: 
+### Anova: 
 - We can reject the null hypothesis, there is a diference in average charges billed for male and female
 - We can reject the null hypothesis, the average billing for smoker is greater than the non-smoker
 - We can reject the null hypothesis. The average billing is different for samples
 - males and smokers are billed higher amounts
 
-Model Output:
+### Model Output:
 - best model based on chosen metrics - R^2 (about 83%), mean absolute error and root mean squared error was the Random Forest regressor
 - On average the root mean squared error for the model was $5800, meaning there is definitely room for improvement. 
 - KFold cross validation using 7 splits gave the best error values
