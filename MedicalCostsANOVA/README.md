@@ -1,10 +1,10 @@
 Packages Dependencies: 
-pandas == 1.4.2
-numpy == 1.22.3
-seaborn == 0.11.2
-matplotlib == 3.5.2
-sklearn == 1.1.2
-scipy == 1.8.1
+- pandas == 1.4.2
+- numpy == 1.22.3
+- seaborn == 0.11.2
+- matplotlib == 3.5.2
+- sklearn == 1.1.2
+- scipy == 1.8.1
 
 ## This Folder holds two files an insurance dataset saved as a csv file, and an ipynb containing my analysis. 
 Data shape: 1300 samples
