@@ -9,7 +9,7 @@ X variables: Location, Time, MRI_Units, CT_Scanners, Hospital_Beds
 y output: Hospital Stay
 
 ## TLDR: 
-- stared off by looking at the correlation between variales 
+- started off by looking at the correlation between variables 
 - strong positive correlation between number of CT scanners and MRI units, this makes sense and probably relates to the size of the hospitals
 - Japan, Russia and Korea have the longest length of stay
 
@@ -21,4 +21,4 @@ y output: Hospital Stay
 
 ## improvements: 
 - find more data either by sourcing from api or interpolating
-- adding features 
+- adding more useful features 
